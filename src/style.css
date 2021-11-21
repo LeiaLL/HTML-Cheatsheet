@@ -1,0 +1,41 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #f9f7fe;
+}
+
+h1 {
+  text-align: center;
+  padding: 30px;
+  color: #8064e9;
+  font-size: 37px;
+}
+
+table {
+  border-radius: 10px;
+  box-shadow: 10px 10px 8px #888888;
+  width: 75%;
+  margin: 0 auto;
+  padding: 15px;
+  background-color: #fff;
+}
+
+td {
+  padding: 10px;
+}
+
+.tableHeading {
+  text-align: center;
+  font-size: 23px;
+}
+
+.tableLables {
+  font-size: 19px;
+}
+
+.tag {
+  width: 22%;
+  text-align: center;
+}
