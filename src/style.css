@@ -14,16 +14,24 @@ h1 {
 }
 
 table {
-  border-radius: 10px;
+  border-radius: 15px;
   box-shadow: 10px 10px 8px #888888;
   width: 75%;
   margin: 0 auto;
   padding: 15px;
   background-color: #fff;
+  border-collapse: collapse;
 }
 
 td {
   padding: 10px;
+}
+
+tbody tr {
+  transition: all 200ms ease-in-out;
+}
+tbody tr:hover {
+  background-color: #8164e973;
 }
 
 .tableHeading {
@@ -38,4 +46,8 @@ td {
 .tag {
   width: 22%;
   text-align: center;
+}
+
+.highlight {
+  background-color: #8164e918;
 }
